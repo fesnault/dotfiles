@@ -8,7 +8,7 @@ source $HOME/.config/fish/colors.fish
 set -gx PATH $HOME/.local/bin /usr/local/bin /opt/chromium /opt/android-sdk/platform-tools /opt/homebrew/bin $PATH
 
 alias v=$EDITOR
-alias la='ls -la'
+alias la='ls -lha'
 alias df='df -h'
 alias du='du -ch'
 alias ipp='curl ipinfo.io/ip'
