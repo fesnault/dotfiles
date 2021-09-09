@@ -7,6 +7,13 @@ source $HOME/.config/fish/shortcuts.fish
 source $HOME/.config/fish/colors.fish
 set -gx PATH $HOME/.local/bin /usr/local/bin /opt/chromium /opt/android-sdk/platform-tools /opt/homebrew/bin $PATH
 
+switch (uname)
+case "*Darwin"
+    alias lsblk="diskutil list"
+case '*Linux'
+    :
+end
+
 alias v=$EDITOR
 alias la='ls -lha'
 alias df='df -h'
