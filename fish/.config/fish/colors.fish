@@ -1,5 +1,5 @@
 set fish_color_autosuggestion brblack
-set fish_color_command blue
+set fish_color_command yellow
 set fish_color_comment black
 set fish_color_comment bryellow
 set fish_color_comment brgreen
